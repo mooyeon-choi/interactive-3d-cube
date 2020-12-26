@@ -3,7 +3,7 @@ JavaScript Canvas를 활용하여 마우스로 움직일 수 있는 3D Cube를 �
 
 ## About The Project
 
-![Example](./images/3d_cube.gif)
+![Example](./images/3D_cube.gif)
 
 * 마우스 드래그를 통해 큐브를 회전시킬 수 있습니다.
 * 드래그 시작점, 드래그가 끝나는 점을 기준으로 속도와 회전방향을 조절합니다.
