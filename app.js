@@ -56,13 +56,12 @@ class App {
     this.endPos.y = e.clientY;
 
     this.pointer.x =
-      (this.endPos.x - this.startPos.x) *
-      (this.endTime - this.startTime) *
-      0.01;
+      ((this.endPos.x - this.startPos.x) / (this.endTime - this.startTime)) *
+      200;
+
     this.pointer.y =
-      (this.endPos.y - this.startPos.y) *
-      (this.endTime - this.startTime) *
-      0.01;
+      ((this.endPos.y - this.startPos.y) / (this.endTime - this.startTime)) *
+      200;
   }
 }
 
